@@ -11,7 +11,7 @@ app.use(GamesRoute)
 app.use('/api', AccountRoute)
 
 
-const port = process.env.PORT || 2023;
+const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
     const htmlResponse = `
@@ -27,14 +27,7 @@ app.get("/", (req, res) => {
     res.send(htmlResponse);
 });
 
-try {
-    app.listen(port, () => {
-        console.log(`Port running in: http://localhost:${port}`);
-    });
-} catch (e) {
-    console.log(e);
-}
-//  app.listen(port, () => {
-//     console.log(`Port running in: http://localhost:${port}`);
-//  });
+ app.listen(port, () => {
+    console.log(`El servidor está corriendo: http://localhost:${port}`);
+ });
  
