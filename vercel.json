@@ -4,7 +4,18 @@
       {
         "src": "index.js", 
         "use": "@vercel/node"
-      }
+      },
+      {
+        "src": "./node_modules/bcrypt/**/*",
+        "use": "@vercel/node",
+        "config": {
+                "VERCEL_BUILDER_CMD": "yarn --ignore-engines --ignore-scripts --prefer-offline add bcrypt"
+            }
+        },
+        {
+            "src": "./node_modules/bcryptjs/**/*",
+            "use": "@vercel/node"
+        }
     ],
     "routes": [
       {
