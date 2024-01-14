@@ -1,6 +1,6 @@
-const { MongoClient, ObjectId } = require( 'mongodb');
-const GamesService = require( './games.js')
-const JudgesService = require( './judges.js')
+import { MongoClient, ObjectId } from 'mongodb';
+import GamesService from './games.js'
+import JudgesService from './judges.js'
 
 const client = new MongoClient('mongodb://127.0.0.1:27017')
 const db = client.db("AH_PARCIAL1")

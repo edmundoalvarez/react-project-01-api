@@ -1,4 +1,4 @@
-const JudgesService = require("../services/judges.js")
+import JudgesService from "../services/judges.js"
 
 function getJudges(req, res) {
 

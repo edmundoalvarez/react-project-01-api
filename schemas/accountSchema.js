@@ -1,4 +1,4 @@
-const yup = require('yup');
+import yup from 'yup';
 
 const AccountSchema = yup.object({
     email: yup.string()

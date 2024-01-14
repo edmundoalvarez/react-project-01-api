@@ -1,6 +1,6 @@
-const express = require('express')
-const accountController = require('../controllers/account.js')
-const { validateAccount, verifySession } = require('../middlewares/account.js')
+import express from 'express'
+import accountController from '../controllers/account.js'
+import { validateAccount, verifySession } from '../middlewares/account.js'
 
 const route = express.Router()
 

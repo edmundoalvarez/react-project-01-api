@@ -1,5 +1,5 @@
-const express = require("express");
-const GamesVotesController = require('../controllers/gamesVote.js')
+import express from "express";
+import GamesVotesController from '../controllers/gamesVote.js'
 
 const route = express.Router();
 

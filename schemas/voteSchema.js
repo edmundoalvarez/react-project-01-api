@@ -1,5 +1,5 @@
-const yup = require('yup');
-const servicesGames = require('../services/games.js');
+import yup from 'yup'
+import servicesGames from '../services/games.js';
 
 
 export const voteCreateSchema = yup.object({

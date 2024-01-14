@@ -1,8 +1,8 @@
-const { MongoClient, ObjectId } = require ( 'mongodb');
+import { MongoClient, ObjectId } from 'mongodb';
 // import { updatePassword } from 'mongodb';
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-const nodemailer = require('nodemailer');
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import nodemailer from 'nodemailer';
 
 const client = new MongoClient('mongodb://127.0.0.1:27017')
 const db = client.db("AH_PARCIAL1")
