@@ -27,7 +27,14 @@ app.get("/", (req, res) => {
     res.send(htmlResponse);
 });
 
- app.listen(port, () => {
-    console.log(`Port running in: http://localhost:${port}`);
- });
+try {
+    app.listen(port, () => {
+        console.log(`Port running in: http://localhost:${port}`);
+    });
+} catch (e) {
+    console.log(e);
+}
+//  app.listen(port, () => {
+//     console.log(`Port running in: http://localhost:${port}`);
+//  });
  
