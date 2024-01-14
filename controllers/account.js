@@ -1,4 +1,4 @@
-import accountService from '../services/account.js'
+const accountService = require('../services/account.js')
 
 function createAccount(req, res) {
 

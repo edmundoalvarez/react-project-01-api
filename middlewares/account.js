@@ -1,5 +1,5 @@
-import { AccountSchema } from "../schemas/accountSchema.js";
-import accountService from "../services/account.js";
+const { AccountSchema } =  require("../schemas/accountSchema.js");
+const accountService =  require("../services/account.js");
 
 export function validateAccount(req, res, next) {
 

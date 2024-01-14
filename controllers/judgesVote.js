@@ -1,4 +1,4 @@
-import JudgesVoteService from '../services/judgeVotes.js';
+const JudgesVoteService = require('../services/judgeVotes.js');
 
 async function getVotes(req, res){
 

@@ -1,5 +1,5 @@
-import express from "express";
-import JudgesVotesController from '../controllers/judgesVote.js'
+const express =  require("express");
+const JudgesVotesController =  require('../controllers/judgesVote.js')
 
 const route = express.Router();
 

@@ -1,4 +1,4 @@
-import GamesVoteService from '../services/gameVotes.js';
+const GamesVoteService = require('../services/gameVotes.js');
 
 async function getVotes(req, res){
 

@@ -1,7 +1,7 @@
-import express from 'express';
-import GamesRoute from './routes/router.js'
-import cors from 'cors'
-import AccountRoute from './routes/account.js'
+const express = require('express');
+const GamesRoute = require('./routes/router.js')
+const cors = require('cors')
+const AccountRoute = require('./routes/account.js')
 
 const app = express()
 app.use(express.json())

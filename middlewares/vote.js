@@ -1,4 +1,4 @@
-import { voteCreateSchema } from '../schemas/voteSchema.js'
+const { voteCreateSchema } = require('../schemas/voteSchema.js')
 
 function validateVote(req, res, next){
 

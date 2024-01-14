@@ -1,4 +1,4 @@
-import GamesService from "../services/games.js"
+const GamesService = require("../services/games.js")
 
 function getGames(req, res) {
 
