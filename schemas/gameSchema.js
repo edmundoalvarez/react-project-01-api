@@ -1,4 +1,4 @@
-import yup from 'yup';
+const yup = require('yup');
 
 const GameSchema = yup.object({
     name: yup.string()
