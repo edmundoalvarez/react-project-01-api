@@ -12,7 +12,7 @@ app.use(GamesRoute)
 app.use('/api', AccountRoute)
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Bienvenido a la API de votación de juegos de Edmundo Alvarez')
 })
 
 app.listen(2023, function (){
