@@ -27,10 +27,6 @@
       {
         "src": "/(.*)",
         "dest": "index.js"
-      },
-      {
-        "src": "/games",
-        "dest": "index.js/games"
       }
     ]
     
