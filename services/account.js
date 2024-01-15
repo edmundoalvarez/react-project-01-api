@@ -4,8 +4,8 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import nodemailer from 'nodemailer';
 
-const client = new MongoClient('mongodb://127.0.0.1:27017')
-const db = client.db("AH_PARCIAL1")
+const client = new MongoClient('mongodb+srv://edmundoalvarezok:Checho.150566@api-edi.six0hm3.mongodb.net/')
+const db = client.db("api-juegos")
 const AccountsCollection = db.collection('accounts');
 const TokensCollection = db.collection('tokens');
 

@@ -2,8 +2,8 @@ import { MongoClient, ObjectId } from 'mongodb';
 import GamesService from './games.js'
 import JudgesService from './judges.js'
 
-const client = new MongoClient('mongodb://127.0.0.1:27017')
-const db = client.db("AH_PARCIAL1")
+const client = new MongoClient('mongodb+srv://edmundoalvarezok:Checho.150566@api-edi.six0hm3.mongodb.net/')
+const db = client.db("api-juegos")
 const judgeVotesCollection = db.collection('votes');
 
 async function findVote(idJudge){
