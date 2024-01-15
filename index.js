@@ -13,15 +13,6 @@ app.use('/api', AccountRoute)
 
 const port = process.env.PORT || 3000;
 
-
-app.get('/', (req, res) => {
-    res.status(200).json('Welcome, your app is working well');
-})
-
-
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
-
-// Export the Express API
-module.exports = app
+app.listen(2023, function (){
+    console.log(`El servidor está levantado! http://localhost:${port}`)
+  })
