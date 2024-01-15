@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "functions": {
-      "nombre_de_tu_funcion": {
-          "runtime": "nombre_del_runtime",
-          "timeout": 60
-      }
-    },
     "builds": [
       {
         "src": "index.js", 
