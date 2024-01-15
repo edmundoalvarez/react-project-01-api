@@ -11,6 +11,10 @@ app.use(GamesRoute)
 
 app.use('/api', AccountRoute)
 
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
 app.listen(2023, function (){
     console.log("El servidor está levantado! http://localhost:2023")
   })
